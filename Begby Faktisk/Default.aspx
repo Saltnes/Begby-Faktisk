@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Tenk.no - Begby</title>
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
@@ -48,14 +48,13 @@
         <main class="page landing-page">
             <section class="clean-block slider dark">
                 <div class="container">
-                    <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand">,
-                    <ItemTemplate>
-                        <img alt="Plakat" height="100%" src="<%# Container.DataItem %>"/>
-                        <br/>
-                        <asp:Button ID="ButtonDelete" CommandName="<%# Container.DataItem %>" runat="server" Text="Delete"/>
-                    </ItemTemplate>
+                    <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand">
+                        <ItemTemplate>
+                            <img alt="plakat" width="100%" src="<%# Container.DataItem %>"/>
+                            <br/>
+                            <asp:Button ID="ButtonDelete" CommandName="<%# Container.DataItem %>" runat="server" Text="Delete"/>
+                        </ItemTemplate>
                     </asp:DataList>
-
                 </div>
             </section>
         </main>
