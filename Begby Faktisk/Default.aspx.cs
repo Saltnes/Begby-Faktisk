@@ -10,20 +10,11 @@ namespace Begby_Faktisk
 {
     public partial class Default : System.Web.UI.Page
     {
-        private void GetImages() //dette i code behind 
+        public partial class _Default : Page
         {
-            //get the path where the files are
-            string imagesPath = Server.MapPath("~/assets/img/plakat");
-            var imagesFolder = new DirectoryInfo(imagesPath);
-
-            FileInfo[] files = imagesFolder.GetFiles(); //get all the files from the folder
-            //we only need the file name to make an url, so we need to add "images/" in front of all the names
-            List<string> urls = new List<string>();
-            foreach (FileInfo f in files)
-                urls.Add("img/" + f.Name);
-
-            DataList1.DataSource = urls;
-            DataList1.DataBind();
+            protected void Page_Load(object sender, EventArgs e)
+            {
+            }
         }
     }
 }

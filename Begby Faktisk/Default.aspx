@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="nb" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -48,14 +48,13 @@
         <main class="page landing-page">
             <section class="clean-block slider dark">
                 <div class="container">
-                    <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand">,
-                    <ItemTemplate>
-                        <img alt="Plakat" height="100%" src="<%# Container.DataItem %>"/>
-                        <br/>
-                        <asp:Button ID="ButtonDelete" CommandName="<%# Container.DataItem %>" runat="server" Text="Delete"/>
-                    </ItemTemplate>
-                    </asp:DataList>
-
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="w-100 d-block" src="assets/img/plakat/image-1.jpg" alt="Slide Image">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
