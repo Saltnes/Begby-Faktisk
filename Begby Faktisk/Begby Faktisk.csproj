@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\css\myStyle.css" />
     <Content Include="assets\css\vanilla-zoom.min.css" />
     <Content Include="assets\fonts\Simple-Line-Icons.eot" />
     <Content Include="assets\fonts\simple-line-icons.min.css" />
