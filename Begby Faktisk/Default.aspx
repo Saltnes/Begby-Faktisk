@@ -23,7 +23,7 @@
     <div>
         <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
             <div class="container">
-                <a class="navbar-brand logo" href="#">Faktisk.no Strømpriser</a>
+                <a class="navbar-brand logo" href="#">Tenk.no Strømpriser</a>
                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
                     <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
                 </button>
