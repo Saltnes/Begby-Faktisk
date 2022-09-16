@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="nb" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png"> <%--Setter ikon som er på taben i nettleseren--%>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
@@ -23,7 +23,7 @@
     <div>
         <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
             <div class="container">
-                <a class="navbar-brand logo" href="#">Faktisk.no Strømpriser</a>
+                <a class="navbar-brand logo" href="#">Tenk.no Strømpriser</a>
                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
                     <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
                 </button>
@@ -69,5 +69,5 @@
         <script src="assets/js/theme.js"></script>
     </div>
 </form>
-</body>-
+</body>
 </html>
